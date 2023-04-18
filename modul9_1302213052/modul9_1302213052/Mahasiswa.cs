@@ -2,17 +2,14 @@
 {
     public class Mahasiswa
     {
-        public string nama { get; set; }
-        public string nim { get; set; }
-        public List<string> course { get; set; }
-        public int year { get; set; }
+        public string Name { get; set; }
+        public string Nim { get; set; }
+        public List<String> Course { get; set; }
+        public int Year { get; set; }
+        public Mahasiswa()
+        {
+            Course = new List<string>();
+        }
+    }
+}
 
-        public class Mahasiswa(string name, string nim, List<string> course, int year){
-            this.name = name
-
-            }
-
-
-
-    } 
-}}}
